@@ -1,137 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FriendFinder</title>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 </head>
+
 <body>
-
-<h2> Survey Questions </h2>
-
-<h3> About You</h3>
-
-<form>
-Name: <input type="text" name="username"><br>
-Link to Photo (URL) <input type="text" name="imageurl"><br>
-
-
-
-<h3> Question 1 </h3>
-<h4> You are a creative person.</h4>
-<select data-placeholder="" id="q1">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 2 </h3>
-<h4> You are a  talkative person.</h4>
-<select data-placeholder="" id="q2">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 3 </h3>
-<h4>You are full of energy.</h4>
-<select data-placeholder="" id="q3">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 4 </h3>
-<h4>You tend to worry.</h4>
-<select data-placeholder="" id="q4">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 5 </h3>
-<h4> You tend to think deeply about things.</h4>
-<select data-placeholder="" id="q5">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 6 </h3>
-<h4> You are a quiet person.</h4>
-<select data-placeholder="" id="q6">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 7 </h3>
-<h4> You  value artistic and aesthetic experiences.</h4>
-<select data-placeholder="" id="q7">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 8 </h3>
-<h4> You are considerate and kind to almost everyone.</h4>
-<select data-placeholder="" id="q8">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 9 </h3>
-<h4> You perfer working in a team.</h4>
-<select data-placeholder="" id="q9">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-
-<h3> Question 10 </h3>
-<h4> You have a high self-esteem.</h4>
-<select data-placeholder="" id="q10">
-  <option value="1">1 (Strongly Disagree)</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5 (Strongly Agree)</option>
-</select>
-</br>
-</br>
-</br>
-<input type="submit" value="Submit">
-</form>
-
-
+    <h2> Survey Questions </h2>
+    <h3> About You</h3>
+    <a href="./home">
+<button> Go Home</button>
+</a>
+    <form>
+        Name:
+        <input type="text" id="name
+         name="username">
+        <br> Link to Photo (URL)
+        <input type="text" id="photo" name="photo">
+        <br>
+        <h3> Question 1 </h3>
+        <h4> You are a creative person.</h4>
+        <select data-placeholder="" id="q1">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 2 </h3>
+        <h4> You are a  talkative person.</h4>
+        <select data-placeholder="" id="q2">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 3 </h3>
+        <h4>You are full of energy.</h4>
+        <select data-placeholder="" id="q3">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 4 </h3>
+        <h4>You tend to worry.</h4>
+        <select data-placeholder="" id="q4">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 5 </h3>
+        <h4> You tend to think deeply about things.</h4>
+        <select data-placeholder="" id="q5">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 6 </h3>
+        <h4> You are a quiet person.</h4>
+        <select data-placeholder="" id="q6">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 7 </h3>
+        <h4> You  value artistic and aesthetic experiences.</h4>
+        <select data-placeholder="" id="q7">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 8 </h3>
+        <h4> You are considerate and kind to almost everyone.</h4>
+        <select data-placeholder="" id="q8">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 9 </h3>
+        <h4> You perfer working in a team.</h4>
+        <select data-placeholder="" id="q9">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        <h3> Question 10 </h3>
+        <h4> You have a high self-esteem.</h4>
+        <select data-placeholder="" id="q10">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        </br>
+        </br>
+        </br>
+        <input type="submit" value="Submit">
+    </form>
+    <script type="text/javascript">
+    $("#submit").on("click", function(event) {
+        // event.preventDefault();
+          var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+        };
 
 
+        // $.post("/new-reservation", newFriend)
+        //     .then(function(data) {
+        //         console.log("yep");
+        //             $("#q1").val(),
+        //             $("#q2").val(),
+        //             $("#q3").val(),
+        //             $("#q4").val(),
+        //             $("#a5").val(),
+        //             $("#q6").val(),
+        //             $("#q7").val(),
+        //             $("#q8").val(),
+        //             $("#q9").val(),
+        //             $("#q10").val()
+        //     }, function(err) {
+        //         console.log(err)
+        //     });
+
+          console.log(userData);
+            var currentURL = window.location.origin;
+
+            $.post(currentURL + "/api/friends", userData, function(data){
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#matchName").text(data.name);
+          $('#matchImg').attr("src", data.photo);
+          // Show the modal with the best match 
+          $("#resultsModal").modal('toggle');
+        });
+
+
+
+
+    }); // Close #buttons
+    </script>
 </body>
+
 </html>

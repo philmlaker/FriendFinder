@@ -10,8 +10,7 @@ var path = require('path');
 
 
 module.exports = function (app) {
-	express = require('express');
-	app = express();
+
 
 
 
